@@ -1,0 +1,56 @@
+/* src/pages/HomePage.css */
+
+body {
+    background-color: #333333; /* Fundo em cinza chumbo */
+    color: #fff; /* Texto em branco */
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  input[type='text'] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px; /* Mais arredondada */
+  }
+  
+  .anime-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .anime-item {
+    width: calc(25% - 20px);
+    margin: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .anime-item img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .anime-item p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+  }
+  

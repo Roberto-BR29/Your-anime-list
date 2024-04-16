@@ -1,0 +1,61 @@
+/* src/pages/AnimeDetailPage.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #333; /* Fundo preto */
+  }
+  
+  .title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff; /* Cor do texto branco */
+  }
+  
+  .anime-details {
+    display: flex;
+    align-items: flex-start; /* Alinhar os itens ao topo */
+    background-color: #222; /* Cinza escuro para o conteúdo */
+    border-radius: 10px;
+    overflow: hidden; /* Para garantir que as bordas arredondadas não sejam cortadas */
+  }
+  
+  .anime-details img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px 0 0 10px; /* Bordas arredondadas apenas no canto superior esquerdo */
+    margin-right: 20px; /* Espaçamento entre a imagem e o texto */
+  }
+  
+  .anime-info {
+    flex-grow: 1; /* Ocupar o espaço restante */
+    padding: 20px; /* Espaçamento interno */
+    display: flex; /* Exibir os itens lado a lado */
+    flex-wrap: wrap; /* Quebrar para a próxima linha se necessário */
+  }
+  
+  .anime-info p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-right: 20px; /* Espaçamento entre os itens */
+    color: #fff; /* Cor do texto branco */
+  }
+  
+  .anime-info .synopsis {
+    margin-bottom: 20px;
+  }
+  
+  .score-box {
+    background-color: #fff; /* Fundo branco */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .score {
+    font-weight: bold;
+    color: #333; /* Cor do texto */
+  }
+  
